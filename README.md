@@ -45,9 +45,9 @@ sudo brew services start zouxian
 ### Method 2: Manually
 
 ```shell
-sudo curl https://raw.githubusercontent.com/CatMe0w/zouxian/master/zouxian.sh -o /usr/local/bin/zouxian
+sudo curl https://raw.githubusercontent.com/wumbomumbo/zouxian-intel/master/zouxian.sh -o /usr/local/bin/zouxian
 sudo chmod +x /usr/local/bin/zouxian
-sudo curl https://raw.githubusercontent.com/CatMe0w/zouxian/master/cat.me0w.zouxian.plist -o /Library/LaunchDaemons/cat.me0w.zouxian.plist
+sudo curl https://raw.githubusercontent.com/wumbomumbo/zouxian-intel/master/cat.me0w.zouxian.plist -o /Library/LaunchDaemons/cat.me0w.zouxian.plist
 sudo launchctl load -w /Library/LaunchDaemons/cat.me0w.zouxian.plist
 ```
 
