@@ -2,9 +2,11 @@
 
 中文版请见[这里](https://github.com/CatMe0w/zouxian/blob/master/README_zh.md)。
 
-Apple restricted the access to Apple Intelligence and Xcode LLM (Predictive Code Completion) feature on China models of Mac. That is, if you are using a Mac bought in China, even if you are not in China, you will not be able to use Apple Intelligence or Xcode Predictive Code Completion.
+This is a fork of zouxian which has the extra ability to enable the Apple Intelligence menu in settings on Intel Macs.
 
-If you are unfortunate to be in this situation, now it is time take your Mac on a journey of _[Zouxian](https://en.wikipedia.org/wiki/Zouxian_(phenomenon))_.
+Currently, all this does is enable the menu in Settings, and makes it appear that it's doing something, but it really isnt.
+IIRC the Anvil framework is blocking Apple Intellignece from working as it's detecting you are not using an M-series Mac.
+You can force more functionality of Apple Intelligence by editing the FeatureFlags located in the system files, however this WILL make your Mac very slow, and it still won't properly function.
 
 ---
 
