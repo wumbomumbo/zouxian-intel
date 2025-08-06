@@ -6,7 +6,7 @@ This is a fork of zouxian which has the extra ability to enable the Apple Intell
 
 Currently, all this does is enable the menu in Settings, and makes it appear that it's doing something, but it really isnt.
 IIRC the Anvil framework is blocking Apple Intellignece from working as it's detecting you are not using an M-series Mac.
-You can force more functionality of Apple Intelligence by editing the FeatureFlags located in the system files, however this WILL make your Mac very slow, and it still won't properly function.
+You can force more functionality of Apple Intelligence by editing the FeatureFlags located in the system files, or spoofing your SMBIOS to an Apple Silicon Mac. However this WILL make your Mac very slow, and it still won't properly function.
 
 ---
 
